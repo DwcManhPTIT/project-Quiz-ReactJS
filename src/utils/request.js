@@ -1,4 +1,4 @@
-const API_DOMAIN = "https://database-json-eight.vercel.app/";
+const API_DOMAIN = "http://139.99.116.152:3000/";
 
 export const get = async (path, options = {}) => {
   const response = await fetch(API_DOMAIN + path, options);
